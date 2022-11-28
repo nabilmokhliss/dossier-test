@@ -1,0 +1,53 @@
+body{
+    /*background-image: url(/dossier-test/css-test/FB_IMG_1665308202145.jpg);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; /*background respecte taille de la fenetre*/
+}
+h1{
+    color: black;
+    font-family: "press start 2p";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+    border-right-style: double;
+    border-right-width: 10px;
+    border-right-color: silver;
+    background: linear-gradient(to right,skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+p{
+   border-style: outset;
+   border-width: 5px;
+   border-color: gold;
+   border-radius: 10px;
+   padding: 5px;
+   background: linear-gradient(to left,skyblue, white);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#box1{
+    border: 5px solid;
+    width: 450px;
+    height: 450px;
+    font-size: 20px;
+    background-color: greenyellow;
+    /*margin: 100px; /*prend 100px de chaque coté*/
+    padding: 50px; /*prend 50px de chaque coté*/
+    margin-left: 10%;
+}
+
+#box2{
+    border: 5px solid;
+    width: 450px;
+    height: 450px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    margin: 100px;
+}
